@@ -18,8 +18,8 @@ class BurgerBuilder extends Component {
 
   componentDidMount() {
     console.log('[componentDidMount]')
-    // this.getIngredientsFromServer()
-    this.getLastBurgerFromServer()
+    this.getIngredientsFromServer()
+    //this.getLastBurgerFromServer()
     this.getbasicPriceFromServer()
   }
   componentDidUpdate() {
